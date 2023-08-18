@@ -3,7 +3,7 @@
 Este projeto consiste em uma rotina automatizada de extração de dados de um banco de dados Oracle. A rotina é executada em uma máquina virtual hospedada na AWS. Ela se conecta ao banco de dados Oracle usando as informações de conexão fornecidas, executa uma consulta SQL especificada, processa os resultados e armazena-os em um arquivo Excel. A execução da rotina pode ser agendada para ocorrer em intervalos regulares, como diariamente.
 
 ## Tecnologias Utilizadas
-Python: Linguagem de programação utilizada para desenvolver a rotina.
+Python: Linguagem de programação utilizada para desenvolver a rotina./n
 oracledb: Módulo utilizado para a conexão com o banco de dados Oracle.
 pandas: Biblioteca usada para a manipulação de dados em formato tabular.
 openpyxl: Biblioteca utilizada para a manipulação de arquivos Excel.
