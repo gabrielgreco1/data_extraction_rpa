@@ -14,8 +14,8 @@ AWS: Plataforma de computação em nuvem utilizada para hospedar a máquina virt
 Imagine que o Departamento de Recursos Humanos (RH) da empresa precisa de relatórios diários sobre a presença e ausência dos funcionários, ou informações sobre folha de pagamento e benefícios (que é o caso deste projeto). A rotina automatizada pode ser configurada para executar todos os dias de manhã cedo, ou em qualquer outro período escolhido pelos solicitantes, pois como roda em uma máquina virtual podemos programar as tasks para qualquer momento. Os resultados são extraídos do banco de dados Oracle e armazenados em um arquivo Excel formatado. Esse arquivo é, então, automaticamente salvo em uma pasta compartilhada na AWS.
 
 # Projeto 2: Interface Gráfica para Extração de Dados
-Descrição
-Este projeto envolve uma aplicação de interface gráfica hospedada em uma máquina virtual na AWS. A aplicação permite que os usuários do setor de RH selecionem o tipo de relatório que desejam extrair ("Benefícios" ou "Folha - SRD"), insiram a data do período desejado e, em seguida, executem a extração dos dados. Os resultados são armazenados em arquivos Excel separados, com nomes baseados no tipo de relatório e na data do período.
+## Descrição
+Este projeto envolve uma aplicação de interface gráfica hospedada em uma máquina virtual na AWS. A aplicação permite que os usuários de diversos setores da empresa selecionem o tipo de relatório que desejam extrair, insiram a data do período desejado e, em seguida, executem a extração dos dados. Os resultados são armazenados em arquivos Excel separados, com nomes baseados no tipo de relatório e na data do período.
 
 ## Tecnologias Utilizadas
 tkinter: Biblioteca padrão do Python para criação de interfaces gráficas.
