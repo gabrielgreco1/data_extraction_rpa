@@ -21,7 +21,7 @@ Este projeto envolve uma aplicação de interface gráfica hospedada em uma máq
 tkinter: Biblioteca padrão do Python para criação de interfaces gráficas.
 ...
 
-# Utilização 
+## Utilização 
 A aplicação de interface gráfica é especialmente útil para os membros de todos os setores de uma empresa, pois simplifica o processo de extração de relatórios. Eles podem usar a aplicação para selecionar o tipo de relatório (por exemplo, "Benefícios" ou qualquer outra tabela do banco de dados) e inserir a data do período que desejam analisar. Após a execução, os dados são extraídos do banco de dados Oracle, processados e armazenados em arquivos Excel. Esses arquivos são automaticamente salvos em uma pasta compartilhada na AWS, onde os membros do setor podem acessá-los facilmente.
 
 Conclusão
