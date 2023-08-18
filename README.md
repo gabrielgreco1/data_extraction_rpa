@@ -3,12 +3,12 @@
 Este projeto consiste em uma rotina automatizada de extração de dados de um banco de dados Oracle. A rotina é executada em uma máquina virtual hospedada na AWS. Ela se conecta ao banco de dados Oracle usando as informações de conexão fornecidas, executa uma consulta SQL especificada, processa os resultados e armazena-os em um arquivo Excel. A execução da rotina pode ser agendada para ocorrer em intervalos regulares, como diariamente.
 
 ## Tecnologias Utilizadas 
-### Python: Linguagem de programação utilizada para desenvolver a rotina.
-### oracledb: Módulo utilizado para a conexão com o banco de dados Oracle.
-### pandas: Biblioteca usada para a manipulação de dados em formato tabular.
-### openpyxl: Biblioteca utilizada para a manipulação de arquivos Excel.
-### datetime: Módulo para manipulação de datas e horários.
-### AWS: Plataforma de computação em nuvem utilizada para hospedar a máquina virtual onde a rotina é executada.
+#### Python: Linguagem de programação utilizada para desenvolver a rotina.
+#### oracledb: Módulo utilizado para a conexão com o banco de dados Oracle.
+#### pandas: Biblioteca usada para a manipulação de dados em formato tabular.
+#### openpyxl: Biblioteca utilizada para a manipulação de arquivos Excel.
+#### datetime: Módulo para manipulação de datas e horários.
+#### AWS: Plataforma de computação em nuvem utilizada para hospedar a máquina virtual onde a rotina é executada.
 
 ## Utilização
 Imagine que o Departamento de Recursos Humanos (RH) da empresa precisa de relatórios diários sobre a presença e ausência dos funcionários, ou informações sobre folha de pagamento e benefícios (que é o caso deste projeto). A rotina automatizada pode ser configurada para executar todos os dias de manhã cedo, ou em qualquer outro período escolhido pelos solicitantes, pois como roda em uma máquina virtual podemos programar as tasks para qualquer momento. Os resultados são extraídos do banco de dados Oracle e armazenados em um arquivo Excel formatado. Esse arquivo é, então, automaticamente salvo em uma pasta compartilhada na AWS.
